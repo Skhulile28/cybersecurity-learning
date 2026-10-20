@@ -1,0 +1,26 @@
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Large virtual machine files
+*.vdi
+*.vmdk
+*.ova
+
+# Lab captures and raw scan outputs
+*.pcap
+*.pcapng
+*.nmap
+*.gnmap
+*.xml
